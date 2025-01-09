@@ -2,6 +2,10 @@
     color: rgb(223, 221, 225);
 }
 
+@mixin text-grey {
+    color: rgb(129, 125, 137);
+}
+
 @mixin bg-dark-purple {
     background-color: rgb(11, 6, 15);
 }
