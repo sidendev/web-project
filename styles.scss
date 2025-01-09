@@ -1,0 +1,40 @@
+@use './modules/typography';
+
+body {
+    @include typography.poppins-regular;
+}
+
+// header
+
+.container--header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.container--header--logo {
+    display: flex;
+    border: 1px solid black;
+}
+
+.container--header--nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+// about section
+
+.container--about__img {
+    height: 400px;
+    width: 400px;
+}
+
+// project section
+
+.project__image {
+    height: 200px;
+    width: 300px;
+}
