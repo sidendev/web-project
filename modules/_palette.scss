@@ -1,0 +1,19 @@
+@mixin text-white {
+    color: rgb(223, 221, 225);
+}
+
+@mixin bg-dark-purple {
+    background-color: rgb(11, 6, 15);
+}
+
+@mixin primary-purple {
+    color: rgb(101, 9, 240);
+}
+
+@mixin bg-primary-purple {
+    background-color: rgb(101, 9, 240);
+}
+
+@mixin bg-primary-purple-dark {
+    background-color: rgb(81, 7, 192);
+}

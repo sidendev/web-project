@@ -1,4 +1,5 @@
 @use './modules/typography';
+@use './modules/palette';
 
 body {
     @include typography.poppins-regular;
