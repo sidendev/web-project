@@ -88,7 +88,45 @@ body {
 
 // about
 
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    @include devices.laptop {
+        justify-content: space-between;
+        gap: 4rem;
+    }
+    border: 1px solid white;
+}
+
+.about__title {
+    @include typography.poppins-bold;
+    font-size: 1.5rem;
+    border: 1px solid white;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    border: 1px solid white;
+}
+
+.about__img__section {
+    display: flex;
+    @include devices.tablet {
+        justify-content: center;
+        align-items: center;
+    }
+    @include devices.phone {
+        justify-content: center;
+        align-items: center;
+    }
+    border: 1px solid white;
+}
+
 .about__img {
+    border: 1px solid white;
     width: 400px;
     height: 400px;
     overflow: hidden;
@@ -114,6 +152,11 @@ body {
 // projects
 
 .projects {
+    display: flex;
+    border: 1px solid white;
+}
+
+.projects__grid {
     display: flex;
     border: 1px solid white;
 }
