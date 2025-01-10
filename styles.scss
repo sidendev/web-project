@@ -30,8 +30,19 @@ body {
 // about section
 
 .container--about__img {
-    height: 300px;
-    width: 300px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.container--about__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 // project section
