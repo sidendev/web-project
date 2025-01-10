@@ -223,6 +223,7 @@ body {
 
 .skills__title h3 {
   margin: 0;
+  border: 1px solid white;
 }
 
 .skills__icons {
@@ -235,25 +236,71 @@ body {
 
 .projects {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.projects h3 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
   border: 1px solid white;
 }
 
 .projects__grid {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   border: 1px solid white;
 }
 
 .project__image {
   height: 200px;
   width: 300px;
+  border: 1px solid white;
+}
+
+.project__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.project__tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid white;
 }
 
 .contact {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
   border: 1px solid white;
+}
+
+.contact h3 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
 }
 
 .footer {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  height: 48px;
   border: 1px solid white;
 }
