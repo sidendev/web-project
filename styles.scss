@@ -177,6 +177,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 2rem;
     border: 1px solid white;
 }
@@ -184,11 +185,8 @@ body {
 .skills__title {
     @include typography.poppins-bold;
     font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border: 1px solid white;
+    text-align: center;
 }
 
 .skills__title h3 {
@@ -196,12 +194,35 @@ body {
     border: 1px solid white;
 }
 
+.skills__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 1rem 0 2rem 0;
+    border: 1px solid white;
+}
+
 .skills__icons {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 1rem;
     border: 1px solid white;
+    @include devices.laptop {
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+}
+
+.skills__icons div {
+    flex: 0 0 calc(33.333% - 1rem);
+    text-align: center;
+    border: 1px solid white;
+    padding: 1rem 0;
+    @include devices.laptop {
+        flex: auto;
+    }
 }
 
 // projects
