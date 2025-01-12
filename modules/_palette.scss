@@ -23,9 +23,17 @@
 }
 
 @mixin bg-primary-purple-hover {
-    background-color: hsl(262.1 88.3% 59%);
+    background-color: hsl(262.1 88.3% 60%);
 }
 
 @mixin border-bottom-accent {
     border-bottom: 2px solid hsl(262.1 30% 18%);
+}
+
+@mixin border-accent {
+    border: 2px solid hsl(262.1 30% 18%);
+}
+
+@mixin border-top-accent {
+    border-top: 2px solid hsl(262.1 30% 18%);
 }
