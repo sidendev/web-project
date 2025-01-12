@@ -8,8 +8,9 @@ html {
 
 body {
     @include typography.poppins-regular;
-    @include palette.bg-dark-purple;
+    @include palette.bg-main-dark-purple;
     @include palette.text-white;
+    margin: 0;
 }
 
 // header
@@ -20,7 +21,9 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    border: 1px solid white;
+    @include palette.bg-deep-black;
+    @include palette.border-bottom-accent;
+    // border: 1px solid white;
     @include devices.phone {
         justify-content: center;
     }
@@ -64,7 +67,7 @@ body {
 
 .intro {
     padding: 0 2rem;
-    border: 1px solid white;
+    // border: 1px solid white;
     @include devices.laptop {
         padding: 0 6rem;
     }
@@ -78,6 +81,7 @@ body {
 .intro__content h1 {
     // @include palette.primary-purple;
     font-size: 3rem;
+    @include palette.primary-purple;
 }
 
 .intro__content p {
@@ -298,6 +302,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.25rem;
     border: 1px solid pink;
 }
 
@@ -310,6 +315,7 @@ img {
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    @include palette.text-grey;
     border: 1px solid purple;
 }
 
@@ -340,7 +346,7 @@ img {
 }
 
 .contact button:hover {
-    @include palette.bg-primary-purple-dark;
+    @include palette.bg-primary-purple-hover;
 }
 
 // footer

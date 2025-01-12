@@ -1,23 +1,31 @@
 @mixin text-white {
-    color: rgb(223, 221, 225);
+    color: hsl(0, 0%, 100%);
 }
 
 @mixin text-grey {
-    color: rgb(129, 125, 137);
+    color: hsl(262.1 5% 60%);
 }
 
-@mixin bg-dark-purple {
-    background-color: rgb(11, 6, 15);
+@mixin bg-main-dark-purple {
+    background-color: hsl(262.1 50% 5%);
+}
+
+@mixin bg-deep-black {
+    background-color: hsl(262.1 50% 0%);
 }
 
 @mixin primary-purple {
-    color: rgb(101, 9, 240);
+    color: hsl(262.1 88.3% 62.5%);
 }
 
 @mixin bg-primary-purple {
-    background-color: rgb(101, 9, 240);
+    background-color: hsl(262.1 88.3% 62.5%);
 }
 
-@mixin bg-primary-purple-dark {
-    background-color: rgb(81, 7, 192);
+@mixin bg-primary-purple-hover {
+    background-color: hsl(262.1 88.3% 59%);
+}
+
+@mixin border-bottom-accent {
+    border-bottom: 2px solid hsl(262.1 30% 18%);
 }

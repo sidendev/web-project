@@ -6,8 +6,9 @@ body {
   font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
-  background-color: rgb(11, 6, 15);
-  color: rgb(223, 221, 225);
+  background-color: hsl(262.1, 50%, 5%);
+  color: hsl(0, 0%, 100%);
+  margin: 0;
 }
 
 .header {
@@ -16,7 +17,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  border: 1px solid white;
+  background-color: hsl(262.1, 50%, 0%);
+  border-bottom: 2px solid hsl(262.1, 30%, 18%);
 }
 @media only screen and (max-width: 600px) {
   .header {
@@ -57,16 +59,15 @@ body {
   font-family: "Poppins", serif;
   font-weight: 600;
   font-style: normal;
-  color: rgb(129, 125, 137);
+  color: hsl(262.1, 5%, 60%);
 }
 
 .header__nav li:hover {
-  color: rgb(223, 221, 225);
+  color: hsl(0, 0%, 100%);
 }
 
 .intro {
   padding: 0 2rem;
-  border: 1px solid white;
 }
 @media only screen and (min-width: 1000px) {
   .intro {
@@ -81,6 +82,7 @@ body {
 
 .intro__content h1 {
   font-size: 3rem;
+  color: hsl(262.1, 88.3%, 62.5%);
 }
 
 .intro__content p {
@@ -239,7 +241,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-width: 6rem;
-  color: rgb(223, 221, 225);
+  color: hsl(0, 0%, 100%);
   flex: 0 0 calc(33.333% - 1rem);
   text-align: center;
   border: 1px solid white;
@@ -255,7 +257,7 @@ body {
 img {
   width: 3rem;
   height: 3rem;
-  color: rgb(223, 221, 225);
+  color: hsl(0, 0%, 100%);
   border: 1px solid white;
   display: block;
   fill: ffffff;
@@ -321,6 +323,7 @@ img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.25rem;
   border: 1px solid pink;
 }
 
@@ -333,6 +336,7 @@ img {
   flex-direction: row;
   align-items: center;
   gap: 1rem;
+  color: hsl(262.1, 5%, 60%);
   border: 1px solid purple;
 }
 
@@ -360,12 +364,12 @@ img {
   border: none;
   padding: 0.75rem 1.5rem;
   cursor: pointer;
-  background-color: rgb(101, 9, 240);
-  color: rgb(223, 221, 225);
+  background-color: hsl(262.1, 88.3%, 62.5%);
+  color: hsl(0, 0%, 100%);
 }
 
 .contact button:hover {
-  background-color: rgb(81, 7, 192);
+  background-color: hsl(262.1, 88.3%, 59%);
 }
 
 .footer {
@@ -382,5 +386,5 @@ img {
   font-family: "Poppins", serif;
   font-weight: 700;
   font-style: normal;
-  color: rgb(223, 221, 225);
+  color: hsl(0, 0%, 100%);
 }
