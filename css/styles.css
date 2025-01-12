@@ -324,6 +324,22 @@ body {
   font-size: 1.5rem;
 }
 
+.contact button {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 50px;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  background-color: rgb(101, 9, 240);
+  color: rgb(223, 221, 225);
+}
+
+.contact button:hover {
+  background-color: rgb(81, 7, 192);
+}
+
 .footer {
   display: flex;
   flex-direction: row;
