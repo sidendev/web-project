@@ -225,7 +225,6 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
   border: 1px solid white;
 }
 @media only screen and (min-width: 1000px) {
@@ -236,6 +235,11 @@ body {
 }
 
 .skills__icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 6rem;
+  color: rgb(223, 221, 225);
   flex: 0 0 calc(33.333% - 1rem);
   text-align: center;
   border: 1px solid white;
@@ -245,6 +249,16 @@ body {
   .skills__icons div {
     flex: auto;
   }
+}
+
+.skills_icons i,
+img {
+  width: 3rem;
+  height: 3rem;
+  color: rgb(223, 221, 225);
+  border: 1px solid white;
+  display: block;
+  fill: ffffff;
 }
 
 .projects {
@@ -344,8 +358,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   align-items: center;
   height: 48px;
   border: 1px solid white;
+}
+
+.footer span {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(223, 221, 225);
 }
