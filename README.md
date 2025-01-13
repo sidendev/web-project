@@ -23,23 +23,26 @@ You can view the live site here:
 
 ## How to Clone & View Locally
 
-**Clone the Repo**
+**Clone the Repo:**  
 `git clone https://github.com/sidendev/web-project.git`
 
-**Then change into the project folder:**
+**Then change into the project folder and open in your chosen IDE:**  
 `cd web-project`
 
-**Compile SCSS**
-`npm run sass`
+**Install SASS if not already installed:**  
+`npm install -g sass`
 
-**Run command to watch file for changes in sass**
+**Run command to watch file for sass when making changes to scss files:**  
 `sass --watch --no-source-map styles.scss css/styles.css`
 
-**Simply open index.html in your browser, or use a local dev server such as live-server**
+**Open index.html in your browser, or use a local dev server such as live-server**
 
 ## Roadmap
 
 -   Replace all lorem ipsum content with real content.
+
 -   Add functioning links for site navigation and project images.
+
 -   Integrate a functional contact button.
+
 -   Further improve responsiveness (especially tablet breakpoints).
