@@ -35,7 +35,8 @@ body {
   font-weight: 700;
   font-style: normal;
 }
-.header__logo h2 {
+.header__logo h1 {
+  font-size: 1.75rem;
   margin: 0;
 }
 @media only screen and (max-width: 600px) {
@@ -61,6 +62,10 @@ body {
 .header__nav ul li:hover {
   color: hsl(0, 0%, 100%);
 }
+.header__nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .intro {
   padding: 0 2rem;
@@ -75,7 +80,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.intro__content h1 {
+.intro__content h2 {
   font-size: 3rem;
   color: hsl(262.1, 88.3%, 62.5%);
 }
